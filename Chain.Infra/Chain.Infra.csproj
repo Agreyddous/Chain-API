@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentValidator" Version="2.0.4"/>
+    <PackageReference Include="Dapper" Version="1.60.9"/>
+    <PackageReference Include="NLog.Extensions.Logging" Version="1.5.0-rc1"/>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Chain.Domain\Chain.Domain.csproj"/>
+    <ProjectReference Include="..\Chain.Shared\Chain.Shared.csproj"/>
+  </ItemGroup>
+</Project>
